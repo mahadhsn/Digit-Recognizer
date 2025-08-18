@@ -2,7 +2,37 @@
 ### Project Description
 In this project, I decided to utilize the `mnist` dataset to create a `Convolutional Neural Network` (CNN) with 8 layers leading to a `99.3%` accuracy in recognizing digits ranging from `0-9`. For <b> data visualization </b>, I implemented `Matplotlib`.
 
-As my first ever AI program, I would say it was a success as it gave me a good understanding of how to use <b> Tensorflow, Matplotlib </b> and much more.
+### Getting Started
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
+
+2. Create and activate a virtual environment:
+   - On macOS/Linux:
+     ```
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+   - On Windows:
+     ```
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+
+3. Install the required dependencies:
+   ```
+   pip install tensorflow numpy matplotlib jupyter
+   ```
+
+4. Launch Jupyter Notebook and open the notebook file:
+   ```
+   jupyter notebook
+   ```
+   Then, open the provided notebook file in your browser.
 
 ### Libraries
 - <b>`Tensorflow`</b>: To create the <b> 8 layered CNN </b>
